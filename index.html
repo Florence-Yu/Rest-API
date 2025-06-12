@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather API</title>
+<link rel="stylesheet" href="public/assets/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Check the Weather</h1>
+
+    <label for="city">Choose a city:</label>
+    <select id="city">
+      <option value="Paris">Paris</option>
+      <option value="Versailles">Versailles</option>
+      <option value="Nanterre">Nanterre</option>
+      <option value="Boulogne-Billancourt">Boulogne-Billancourt</option>
+    </select>
+    <button onclick="getWeather()">Get Weather</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+/* Reset some basic styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #FFFDD7, #efedec);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #BEC6A0;
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #555;
+}
+
+select {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+button {
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  background-color: #708871;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 1rem;
+}
+
+button:hover {
+  background-color: #606676;
+}
+
+#result {
+  margin-top: 1rem;
+}
+
+#result h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+#result p {
+  margin: 0.25rem 0;
+  font-size: 1.1rem;
+}
+
+#result img {
+  margin-top: 0.5rem;
+  width: 64px;
+  height: 64px;
+}
